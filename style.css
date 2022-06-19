@@ -1,0 +1,54 @@
+body {
+  background-color: #cdd3bb !important;
+}
+
+.header {
+  margin: 2%;
+  color: #692448;
+  font-family: cursive;
+  text-align: center;
+}
+.header h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.main {
+  text-align: center;
+}
+
+.flexBox {
+  width: 90%;
+  margin: 5% 5%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.flexBox .box {
+  background-color: #e7e8d8;
+  height: 4.5rem;
+  width: 7rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  font-family: monospace;
+}
+.flexBox .box .top {
+  color: #692448;
+  margin-top: 5%;
+  font-size: 2.2rem;
+}
+.flexBox .box .base {
+  margin-top: -12%;
+  font-size: 0.9rem;
+  opacity: 50%;
+}
+
+.glow {
+  box-shadow: 0 0 10px #692448;
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=style.css.map */

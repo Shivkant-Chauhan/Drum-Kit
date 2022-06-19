@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>DrumKit</title>
+</head>
+<body>
+    <div class="header">
+        <h1><u>JavaScript Drum Kit</u></h1>
+    </div>
+
+    <div class="main">
+        <img src="istockphoto.jpeg" alt="">
+    </div>
+
+    <div class="flexBox">
+        <div class="box a" onclick="sound('a')">
+            <h3 class="top">A</h3>
+            <p class="base">CLAP</p>
+        </div>
+        
+        <div class="box s" onclick="sound('s')">
+            <h3 class="top">S</h3>
+            <p class="base">HIHAT</p>
+        </div>
+        
+        <div class="box d" onclick="sound('d')">
+            <h3 class="top">D</h3>
+            <p class="base">KICK</p>
+        </div>
+        
+        <div class="box f" onclick="sound('f')">
+            <h3 class="top">F</h3>
+            <p class="base">OPENHAT</p>
+        </div>
+        
+        <div class="box g" onclick="sound('g')">
+            <h3 class="top">G</h3>
+            <p class="base">BOOM</p>
+        </div>
+        
+        <div class="box h" onclick="sound('h')">
+            <h3 class="top">H</h3>
+            <p class="base">RIDE</p>
+        </div>
+        
+        <div class="box j" onclick="sound('j')">
+            <h3 class="top">J</h3>
+            <p class="base">SNARE</p>
+        </div>
+        
+        <div class="box k" onclick="sound('k')">
+            <h3 class="top">K</h3>
+            <p class="base">TOM</p>
+        </div>
+        
+        <div class="box l" onclick="sound('l')">
+            <h3 class="top">L</h3>
+            <p class="base">TINK</p>
+        </div>
+        
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
